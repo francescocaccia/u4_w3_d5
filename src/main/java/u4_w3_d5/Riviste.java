@@ -1,15 +1,13 @@
 package u4_w3_d5;
 
-import javax.persistence.Entity;
+import javax.persistence.Table;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
-
-//@Table(name = "Riviste")
+@Table(name = "Riviste")
 public class Riviste extends CatalogoBibliotecario {
 
 	private Periodicita periodicita;
